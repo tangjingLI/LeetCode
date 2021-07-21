@@ -16,5 +16,5 @@ class Solution(object):
         for i in range(0, n // 2):
             temp = nums[i] + nums[n - i - 1]
             res = max(res, temp)
-            
+
         return res
